@@ -1,0 +1,157 @@
+/* Reseta margens e paddings para o corpo */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Inclui padding e border nas medidas de largura e altura */
+  }
+  
+  #colorful-text {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white; /* Cor inicial do texto */
+}
+  /* Estilo para o fundo da imagem */
+  #imagem_fundo1 {
+    background: url(../img/bandeira.jpg) no-repeat center center; 
+    background-size: cover;
+    height: 80%;
+    text-align: center;
+  }
+  
+  /* Estilo para o título */
+  #titulo1 {
+    color: #000; /* Cor branca */
+    padding-top: 10%;
+    font-size: 100px;
+    line-height: 1;
+  }
+  
+  /* Estilo para o subtítulo */
+  #subtitulo1 {
+    color: #fff; /* Cor branca */
+    padding: 0 20%;
+  }
+  
+  /* Estilo para o botão */
+  #botao {
+    color: #000; /* Cor branca */
+    background-color: white;
+    font-size: 19px;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #fff; /* Adiciona uma borda branca ao botão */
+    border-radius: 5px;
+    cursor: pointer; /* Adiciona um cursor de mão para o botão */
+  }
+  
+  /* Estilos para colunas */
+  .coluna {
+    float: left;
+    padding: 1% 5%;
+    position: relative;
+  }
+  
+  .dois {
+    width: 40%;
+  }
+  
+  .quatro {
+    width: 15%;
+  }
+  
+  .tres {
+    width: 29%;
+    padding: 0 2%;
+  }
+  
+  /* Centralização e justificação de texto */
+  .centralizado {
+    text-align: center;
+  }
+  
+  .justificado {
+    text-align: justify;
+  }
+  
+  /* Destaque */
+  .destaque1 {
+    background-color: #0e1235; /* Azul escuro */
+    width: 100%;
+  }
+  
+  /* Estilos para seções */
+  section {
+    padding: 40px;
+    float: left;
+  }
+  
+  /* Estilos para ícones e imagens */
+  .icone {
+    width: 51px;
+  }
+  
+  .imgeco {
+    width: 80%;
+    height: 30%;
+  }
+  
+  /* Estilos de texto */
+  .corp {
+    color: black;
+  }
+  
+  .corp2 {
+    color: #fff; /* Cor branca */
+  }
+  
+  /* Estilo para o logo */
+  #logo {
+    width: 96px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+  }
+  
+  /* Estilo para o contêiner do logo */
+  #logodiv {
+    width: 100%;
+    position: relative;
+    padding: 0;
+  }
+  
+
+  /* Estilo para o menu */
+  #menu {
+    float: right;
+    margin-right: 40%;
+    list-style: none;
+    margin-top: 0;
+    right: 20px;
+  }
+  
+  #menu li {
+    float: left;
+    padding: 20px 10px; /* Corrige a sintaxe do padding */
+  }
+  
+  #menu li:hover {
+    background-color: rgba(44, 44, 237, 0.289); /* Cor de fundo ao passar o mouse */
+  }
+  
+  /* Estilo para o cabeçalho */
+  header {
+    background-color: #000; /* Preto */
+    color: aliceblue;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+  }
+  
+  /* Estilo para a parte inferior */
+  .baixo {
+    background-color: #000; /* Preto */
+    color: #01acea; /* Azul */
+  }
+  
